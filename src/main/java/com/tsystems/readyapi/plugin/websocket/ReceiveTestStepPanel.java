@@ -87,7 +87,12 @@ public class ReceiveTestStepPanel extends ConnectedTestStepPanel<ReceiveTestStep
     }
 
     @Override
-    public void assertionMoved(TestAssertion assertion, int ix, int offset) {
+    public void assertionMoved(TestAssertion testAssertion, int i) {
+        assertionListChanged();
+    }
+
+    @Override
+    public void assertionInserted(TestAssertion testAssertion, int i) {
         assertionListChanged();
     }
 

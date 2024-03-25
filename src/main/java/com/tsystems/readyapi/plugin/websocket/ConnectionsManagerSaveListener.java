@@ -15,6 +15,11 @@ import com.eviware.soapui.plugins.ListenerConfiguration;
 public class ConnectionsManagerSaveListener implements ProjectListener, WorkspaceListener {
 
     @Override
+    public void environmentsReordered() {
+        //
+    }
+
+    @Override
     public void afterLoad(Project project) {
         //
     }
