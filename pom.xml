@@ -43,6 +43,14 @@
 						<url>https://repo1.maven.org/maven2</url>
 				</repository>
 		</repositories>
+	<distributionManagement>
+		<!-- Github distribution -->
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/deniszpua/${project.artifactId}</url>
+		</repository>
+	</distributionManagement>
 
 		<scm>
 			<connection>scm:git:git@github.com:deniszpua/ready-websocket-plugin.git</connection>
