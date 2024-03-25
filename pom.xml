@@ -48,14 +48,14 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/deniszpua/${project.artifactId}</url>
+			<url>https://maven.pkg.github.com/CZone0/${project.artifactId}</url>
 		</repository>
 	</distributionManagement>
 
 		<scm>
-			<connection>scm:git:git@github.com:deniszpua/ready-websocket-plugin.git</connection>
-			<developerConnection>scm:git:git@github.com:deniszpua/ready-websocket-plugin.git</developerConnection>
-			<url>https://github.com/deniszpua/ready-websocket-plugin.git</url>
+			<connection>scm:git:git@github.com:CZone0/ready-websocket-plugin.git</connection>
+			<developerConnection>scm:git:git@github.com:CZone0/ready-websocket-plugin.git</developerConnection>
+			<url>https://github.com/CZone0/ready-websocket-plugin.git</url>
 			<tag>HEAD</tag>
 		</scm>
 
