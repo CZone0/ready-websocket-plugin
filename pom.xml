@@ -68,9 +68,9 @@
 
 		<dependencies>
 				<dependency>
-						<groupId>com.smartbear</groupId>
-						<artifactId>ready-api-ui</artifactId>
-						<version>3.9.2</version>
+						<groupId>com.smartbear.soapui</groupId>
+						<artifactId>soapui</artifactId>
+						<version>5.7.2</version>
 						<scope>provided</scope>
 				</dependency>
 				<dependency>
